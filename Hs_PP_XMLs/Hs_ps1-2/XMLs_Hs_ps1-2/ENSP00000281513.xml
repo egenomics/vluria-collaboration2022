@@ -1,0 +1,854 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<predictprotein xmlns="http://www.predictprotein.org/predictprotein" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.predictprotein.org http://predictprotein.org/predictprotein-xsd/predictprotein.xsd">
+<entry dataset="PPJobDB" created="Sun Aug 13 10:38:27 2017" modified="Sun Aug 13 10:38:27 2017" version="1">
+<accession>unknown</accession>
+<name>ENSP00000281513</name>
+<protein>
+    <recommendedName><fullName>unknown</fullName></recommendedName>
+</protein>
+<organism>
+    <entryKey entryKeyValue="1" />
+    <name type="common"></name>
+    <domain>unknown</domain>
+    <dbReference type="NCBI Taxonomy" id="-1"><entryKey entryKeyValue="2" /></dbReference>
+</organism>
+<reference>
+  <entryKey entryKeyValue="3" />
+  <citation type="journal article" date="2004" name="Nucleic Acid Res." volume="32" first="321" last="326">
+    <title>The PredictProtein server.</title>
+    <authorList>
+      <person name="Rost B."/>
+      <person name="Yachdav G."/>
+      <person name="Liu J."/>
+    </authorList>
+    <dbReference type="PubMed" id="15215403"><entryKey entryKeyValue="4" /></dbReference>
+  </citation>
+  <scope>protein feature prediction</scope>
+</reference>
+<reference>
+  <entryKey entryKeyValue="5" />
+  <citation type="journal article" date="2006" name="Nucleic Acids Res." volume="34" first="177" last="181">
+    <title>DISULFIND: a disulfide bonding state and cysteine connectivity prediction server.</title>
+    <authorList>
+      <person name="Ceroni A."/>
+      <person name="Passerini A."/>
+      <person name="Vullo A."/>
+      <person name="Frasconi P."/>
+    </authorList>
+    <dbReference type="PubMed" id="16844986"><entryKey entryKeyValue="6" /></dbReference>
+  </citation>
+  <scope>disulfide bond prediction</scope>
+</reference>
+<reference>
+  <entryKey entryKeyValue="7" />
+  <citation type="journal article" date="2007" name="Bioinformatics." volume="23" first="e13" last="e16">
+    <title>ISIS: interaction sites identified from sequence.</title>
+    <authorList>
+      <person name="Ofran Y."/>
+      <person name="Rost B."/>
+    </authorList>
+    <dbReference type="PubMed" id="17237081"><entryKey entryKeyValue="8" /></dbReference>
+  </citation>
+  <scope>protein binding region prediction</scope>
+</reference>
+<reference>
+  <entryKey entryKeyValue="9" />
+  <citation type="journal article" date="2005" name="J Mol Biol." volume="348" first="85" last="100">
+    <title>Mimicking cellular sorting improves prediction of subcellular localization.</title>
+    <authorList>
+      <person name="Nair R."/>
+      <person name="Rost B."/>
+    </authorList>
+    <dbReference type="PubMed" id="15808855"><entryKey entryKeyValue="10" /></dbReference>
+  </citation>
+  <scope>subcellular location prediction</scope>
+</reference>
+<reference>
+  <entryKey entryKeyValue="11" />
+  <citation type="journal article" date="2012" name="Bioinformatics" volume="28" first="i458" last="i465">
+    <title>LocTree2 predicts localization for all domains of life</title>
+    <authorList>
+      <person name="Goldberg T."/>
+      <person name="Hamp T."/>
+      <person name="Rost B."/>
+    </authorList>
+    <dbReference type="PubMed" id="22962467"><entryKey entryKeyValue="12" /></dbReference>
+  </citation>
+  <scope>subcellular location prediction</scope>
+</reference>
+<reference>
+  <entryKey entryKeyValue="13" />
+  <citation type="journal article" date="2014" name="submitted to Nucleic Acids Research">
+    <title>LocTree3 prediction of localization </title>
+    <authorList>
+      <person name="Goldberg T."/>
+      <person name="Hecht M."/>
+      <person name="Hamp T."/>
+      <person name="Karl T."/>
+      <person name="Yachdav G."/>
+      <person name="Nielsen H."/>
+      <person name="Rost B"/>
+      <person name="et al."/>
+    </authorList>
+    <dbReference type="PubMed" id=""><entryKey entryKeyValue="14" /></dbReference>
+  </citation>
+  <scope>subcellular location prediction</scope>
+</reference>
+<reference>
+  <entryKey entryKeyValue="15" />
+  <citation type="journal article" date="2007" name="PLoS Comput Biol." volume="3" first="e140" last="e140">
+    <title>Natively unstructured loops differ from other loops.</title>
+    <authorList>
+      <person name="Schlessinger A."/>
+      <person name="Liu J."/>
+      <person name="Rost B."/>
+    </authorList>
+    <dbReference type="PubMed" id="17658943"><entryKey entryKeyValue="16" /></dbReference>
+  </citation>
+  <scope>disordered protein region prediction</scope>
+</reference>
+<reference>
+  <entryKey entryKeyValue="17" />
+  <citation type="journal article" date="2000" name="EMBO Rep." volume="1" first="411" last="415">
+    <title>Finding nuclear localization signals.</title>
+    <authorList>
+      <person name="Cokol M."/>
+      <person name="Nair R."/>
+      <person name="Rost B."/>
+    </authorList>
+    <dbReference type="PubMed" id="11258480"><entryKey entryKeyValue="18" /></dbReference>
+  </citation>
+  <scope>nuclear localisation signal prediction</scope>
+</reference>
+<reference>
+  <entryKey entryKeyValue="19" />
+  <citation type="journal article" date="2006" name="Bioinformatics." volume="22" first="891" last="893">
+    <title>PROFbval: predict flexible and rigid residues in proteins.</title>
+    <authorList>
+      <person name="Schlessinger A."/>
+      <person name="Yachdav G."/>
+      <person name="Rost B."/>
+    </authorList>
+    <dbReference type="PubMed" id="16455751"><entryKey entryKeyValue="20" /></dbReference>
+  </citation>
+  <scope>disordered protein region prediction</scope>
+</reference>
+<reference>
+  <entryKey entryKeyValue="21" />
+  <citation type="journal article" date="2007" name="Bioinformatics." volume="23" first="2376" last="2384">
+    <title>Natively unstructured regions in proteins identified from contact predictions.</title>
+    <authorList>
+      <person name="Schlessinger A."/>
+      <person name="Punta M."/>
+      <person name="Rost B."/>
+    </authorList>
+    <dbReference type="PubMed" id="17709338"><entryKey entryKeyValue="22" /></dbReference>
+  </citation>
+  <scope>disordered protein region prediction</scope>
+</reference>
+<reference>
+  <entryKey entryKeyValue="23" />
+  <citation type="journal article" date="2009" name="PLoS ONE" volume="4" first="e4433" last="e4433">
+    <title>Improved Disorder Prediction by Combination of Orthogonal Approaches.</title>
+    <authorList>
+      <person name="Schlessinger A."/>
+      <person name="Punta M."/>
+      <person name="Yachdav G."/>
+      <person name="Kajan L."/>
+      <person name="Rost B."/>
+    </authorList>
+    <dbReference type="PubMed" id="19209228"><entryKey entryKeyValue="24" /></dbReference>
+  </citation>
+  <scope>disordered protein region prediction</scope>
+</reference>
+<proteinExistence type="Uncertain"/>
+<featureTypeGroup type="disulfide bond">
+  <featureProviderGroup provider="DISULFIND" ref="5">
+  </featureProviderGroup>
+</featureTypeGroup>
+<featureTypeGroup type="protein binding region">
+  <featureProviderGroup provider="ISIS" ref="7">
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="1"/><end position="1"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="129"/><end position="129"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="136"/><end position="136"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="377"/><end position="377"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="379"/><end position="379"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="383"/><end position="384"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="456"/><end position="456"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="505"/><end position="507"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="532"/><end position="533"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="653"/><end position="653"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="655"/><end position="656"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="709"/><end position="709"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="794"/><end position="794"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="832"/><end position="832"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="847"/><end position="847"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="896"/><end position="897"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="914"/><end position="914"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="941"/><end position="942"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="1021"/><end position="1021"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="1085"/><end position="1087"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="1149"/><end position="1149"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="1314"/><end position="1314"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="1325"/><end position="1325"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="1618"/><end position="1619"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="1757"/><end position="1757"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="1836"/><end position="1837"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="1960"/><end position="1960"/></location></feature>
+<feature type="protein binding region" soTermId="SO:0000410"><location><begin position="2365"/><end position="2365"/></location></feature>
+  </featureProviderGroup>
+</featureTypeGroup>
+<featureTypeGroup type="nuclear localisation signal">
+  <featureProviderGroup provider="PredictNLS" ref="17">
+  </featureProviderGroup>
+</featureTypeGroup>
+<featureTypeGroup type="disordered region">
+  <featureProviderGroup provider="NORSnet" ref="15">
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="7"/><end position="10"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="469"/><end position="474"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="783"/><end position="783"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="788"/><end position="792"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="831"/><end position="831"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1378"/><end position="1378"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1382"/><end position="1383"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1385"/><end position="1395"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1449"/><end position="1462"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1464"/><end position="1464"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1940"/><end position="1943"/></location></feature>
+  </featureProviderGroup>
+  <featureProviderGroup provider="PROFbval" ref="19">
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1"/><end position="21"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="27"/><end position="50"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="55"/><end position="59"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="65"/><end position="82"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="84"/><end position="88"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="96"/><end position="100"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="105"/><end position="109"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="115"/><end position="134"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="142"/><end position="145"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="151"/><end position="155"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="162"/><end position="166"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="170"/><end position="171"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="173"/><end position="174"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="183"/><end position="186"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="190"/><end position="196"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="198"/><end position="198"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="205"/><end position="209"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="216"/><end position="234"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="236"/><end position="237"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="246"/><end position="249"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="255"/><end position="259"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="265"/><end position="273"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="275"/><end position="275"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="277"/><end position="281"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="289"/><end position="299"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="305"/><end position="312"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="315"/><end position="316"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="318"/><end position="318"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="328"/><end position="331"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="337"/><end position="341"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="347"/><end position="355"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="357"/><end position="361"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="369"/><end position="373"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="378"/><end position="385"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="387"/><end position="392"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="396"/><end position="400"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="405"/><end position="409"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="415"/><end position="432"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="439"/><end position="442"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="448"/><end position="491"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="494"/><end position="515"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="522"/><end position="529"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="531"/><end position="541"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="549"/><end position="556"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="559"/><end position="560"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="562"/><end position="567"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="569"/><end position="569"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="573"/><end position="573"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="575"/><end position="582"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="590"/><end position="598"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="600"/><end position="600"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="604"/><end position="604"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="607"/><end position="614"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="616"/><end position="679"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="696"/><end position="696"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="700"/><end position="700"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="702"/><end position="716"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="718"/><end position="723"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="734"/><end position="739"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="749"/><end position="754"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="764"/><end position="771"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="773"/><end position="774"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="777"/><end position="800"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="802"/><end position="841"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="851"/><end position="853"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="855"/><end position="858"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="871"/><end position="877"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="879"/><end position="879"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="883"/><end position="884"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="894"/><end position="902"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="904"/><end position="914"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="920"/><end position="927"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="929"/><end position="930"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="932"/><end position="934"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="941"/><end position="952"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="961"/><end position="961"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="963"/><end position="967"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="974"/><end position="990"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1002"/><end position="1009"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1016"/><end position="1038"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1051"/><end position="1057"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1060"/><end position="1060"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1064"/><end position="1072"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1074"/><end position="1074"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1082"/><end position="1094"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1096"/><end position="1097"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1100"/><end position="1100"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1107"/><end position="1108"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1111"/><end position="1118"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1120"/><end position="1120"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1128"/><end position="1134"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1136"/><end position="1136"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1143"/><end position="1172"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1184"/><end position="1195"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1201"/><end position="1201"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1203"/><end position="1215"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1225"/><end position="1230"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1237"/><end position="1241"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1243"/><end position="1243"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1246"/><end position="1246"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1249"/><end position="1261"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1264"/><end position="1264"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1271"/><end position="1281"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1292"/><end position="1298"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1308"/><end position="1314"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1324"/><end position="1333"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1335"/><end position="1335"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1344"/><end position="1352"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1358"/><end position="1424"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1426"/><end position="1427"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1430"/><end position="1474"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1477"/><end position="1494"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1497"/><end position="1501"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1514"/><end position="1527"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1534"/><end position="1540"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1552"/><end position="1568"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1587"/><end position="1605"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1607"/><end position="1608"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1612"/><end position="1630"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1637"/><end position="1638"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1640"/><end position="1646"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1648"/><end position="1657"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1660"/><end position="1669"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1676"/><end position="1682"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1684"/><end position="1684"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1691"/><end position="1696"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1710"/><end position="1727"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1730"/><end position="1738"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1741"/><end position="1741"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1745"/><end position="1745"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1749"/><end position="1756"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1767"/><end position="1783"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1786"/><end position="1786"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1789"/><end position="1790"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1792"/><end position="1813"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1815"/><end position="1821"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1831"/><end position="1842"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1856"/><end position="1872"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1885"/><end position="1890"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1898"/><end position="1898"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1902"/><end position="1916"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1919"/><end position="1920"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1923"/><end position="1923"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1927"/><end position="1950"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1952"/><end position="1952"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1966"/><end position="1966"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1975"/><end position="1985"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1993"/><end position="2000"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2011"/><end position="2014"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2023"/><end position="2024"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2026"/><end position="2035"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2038"/><end position="2039"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2049"/><end position="2063"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2073"/><end position="2086"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2090"/><end position="2090"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2094"/><end position="2094"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2096"/><end position="2105"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2115"/><end position="2125"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2138"/><end position="2156"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2165"/><end position="2171"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2181"/><end position="2195"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2207"/><end position="2216"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2218"/><end position="2219"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2226"/><end position="2240"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2248"/><end position="2251"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2261"/><end position="2267"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2269"/><end position="2269"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2273"/><end position="2288"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2297"/><end position="2299"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2306"/><end position="2306"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2308"/><end position="2308"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2319"/><end position="2327"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2329"/><end position="2329"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2332"/><end position="2332"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2335"/><end position="2341"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2368"/><end position="2371"/></location></feature>
+  </featureProviderGroup>
+  <featureProviderGroup provider="Ucon" ref="21">
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1"/><end position="3"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="5"/><end position="8"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="12"/><end position="17"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="33"/><end position="35"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="37"/><end position="43"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="114"/><end position="114"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="126"/><end position="133"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="313"/><end position="313"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="317"/><end position="317"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="352"/><end position="357"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="359"/><end position="364"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="372"/><end position="384"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="415"/><end position="415"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="418"/><end position="419"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="427"/><end position="428"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="431"/><end position="431"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="433"/><end position="436"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="451"/><end position="479"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="501"/><end position="511"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="526"/><end position="532"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="534"/><end position="537"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="562"/><end position="562"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="576"/><end position="576"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="591"/><end position="591"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="593"/><end position="598"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="620"/><end position="624"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="626"/><end position="626"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="636"/><end position="636"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="640"/><end position="662"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="664"/><end position="664"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="674"/><end position="677"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="681"/><end position="681"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="707"/><end position="709"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="713"/><end position="713"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="765"/><end position="765"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="794"/><end position="794"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="797"/><end position="798"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="814"/><end position="814"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="908"/><end position="908"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="945"/><end position="947"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="977"/><end position="978"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="980"/><end position="985"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1022"/><end position="1030"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1032"/><end position="1032"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1051"/><end position="1052"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1060"/><end position="1061"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1064"/><end position="1072"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1082"/><end position="1090"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1152"/><end position="1152"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1207"/><end position="1209"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1255"/><end position="1255"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1273"/><end position="1278"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1330"/><end position="1330"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1379"/><end position="1379"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1383"/><end position="1383"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1387"/><end position="1393"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1396"/><end position="1397"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1420"/><end position="1420"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1434"/><end position="1435"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1437"/><end position="1437"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1462"/><end position="1468"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1490"/><end position="1490"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1513"/><end position="1516"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1518"/><end position="1521"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1560"/><end position="1562"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1566"/><end position="1566"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1618"/><end position="1618"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1662"/><end position="1665"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1784"/><end position="1784"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1803"/><end position="1805"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1830"/><end position="1836"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1838"/><end position="1839"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1902"/><end position="1902"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1904"/><end position="1904"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1906"/><end position="1950"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1956"/><end position="1957"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1963"/><end position="1963"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1977"/><end position="1984"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1993"/><end position="2002"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2034"/><end position="2034"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2055"/><end position="2055"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2075"/><end position="2075"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2079"/><end position="2082"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2119"/><end position="2119"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2150"/><end position="2150"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2283"/><end position="2283"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="2339"/><end position="2339"/></location></feature>
+  </featureProviderGroup>
+  <featureProviderGroup provider="MD" ref="23">
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1"/><end position="17"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="39"/><end position="40"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="373"/><end position="374"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="376"/><end position="381"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="455"/><end position="478"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="500"/><end position="509"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="535"/><end position="535"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="537"/><end position="537"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="641"/><end position="661"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="707"/><end position="708"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1020"/><end position="1028"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1066"/><end position="1067"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1082"/><end position="1082"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1084"/><end position="1088"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1375"/><end position="1399"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1458"/><end position="1468"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1927"/><end position="1927"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1929"/><end position="1946"/></location></feature>
+<feature type="disordered region" soTermId="SO:0100003"><location><begin position="1978"/><end position="1981"/></location></feature>
+<disorderedRegion>
+  <location><begin position="1"/><end position="2371"/></location>
+  <featureString>
+DDDDDDDDDDDDDDDDD---------------------DD------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------DD-DDDDDD-------------------
+------------------------------------------------------DDDDDDDDDDDDDDDDDDDDDDDD---------------------D
+DDDDDDDDD-------------------------D-D---------------------------------------------------------------
+----------------------------------------DDDDDDDDDDDDDDDDDDDDD---------------------------------------
+------DD--------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+-------------------DDDDDDDDD-------------------------------------DD--------------D-DDDDD------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------DDDDDDDDDDDDDDDDDDDDDDDDD-
+---------------------------------------------------------DDDDDDDDDDD--------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+--------------------------D-DDDDDDDDDDDDDDDDDD-------------------------------DDDD-------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------
+  </featureString>
+  <reliability>
+6654332133454332013567777765545310000000000222345667666545777766664556665667666767777778899999888888
+8988876677776654256788753100002357889999888889998988889999888867788987775678889997888888766544567888
+8888888899998877443567767767676656777899999988888999998877788887775679999888776767888866433357777788
+7777764445454334345788899878888999898888898887540113222222000234566422100001121200244566767788888888
+8888876678776543122567766423442323567777788998763000110011123334445444433231100111223556655454442100
+0000111101255677767655333434555431000255678777777777777766543123456888876766666678888887744541335577
+7776776555544444431001224554532111223320123454444444444443210124666776654455565667777777778777877776
+6643210002233346656766678888887877878889998888787778888888887777678777888887766655466666542100022334
+6655555443310123334345565544666666667777787777767777788888888888788778778888888888788888888888888788
+8876665466677788887654545778888888888887663132256778887777777877788888776645322344566555567888888888
+8878777788877775441121111212011233345546667767766656667667755531000123557777755310002100024667777776
+6677777778788888888899887887777777888777776654432331111221111233666667778888877677777665656777788787
+7787543456777878878877777888888887778888888898888777556888877787788876654102356778888888888888888878
+8887766655777788888767656434457777888888888888778888887887766667666764111001111112224444443232221001
+0011223222222333331022233323322310133444432222121110110110124444431013455566555532333333334455565555
+6777777654200012322256776777777776667788888898888776677777766665545688899888888888776666677666666655
+4434455666555432323566667666666667777677665666764444465565431111245777675665676788888888887888888898
+8888888888877666666545644456656765677778888878888888888888898888888787766665444444456677777667788776
+6655455667888876787666778865432221001235678877777887667766543432221234456777777877887787777888887645
+5432222223212212343444544110024334444554443210013444433345556667787777676432000002366787665322211012
+4578776676565677787776555423454543577788777776675332001222223565666675443112102124545545677876776655
+6677778788767555333566677787665544556677666653224555666688888777666778888887776556665565566678888878
+7667666665555666878887776565666777787877888877666777888887777766567777775553455555677888888778765568
+88988888888888888765444556766665543122357788766666545556554654644542211
+  </reliability>
+</disorderedRegion>
+  </featureProviderGroup>
+</featureTypeGroup>
+<featureTypeGroup type="secondary structures">
+  <featureProviderGroup provider="PROFsec" ref="3">
+<feature type="helix" soTermId="SO:0001114"><location><begin position="18"/><end position="29"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="41"/><end position="42"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="50"/><end position="54"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="59"/><end position="64"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="81"/><end position="82"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="89"/><end position="94"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="100"/><end position="104"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="109"/><end position="114"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="135"/><end position="140"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="146"/><end position="149"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="155"/><end position="160"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="168"/><end position="169"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="176"/><end position="181"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="186"/><end position="189"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="201"/><end position="203"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="209"/><end position="214"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="239"/><end position="244"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="250"/><end position="254"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="259"/><end position="264"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="271"/><end position="276"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="282"/><end position="288"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="299"/><end position="304"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="310"/><end position="313"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="320"/><end position="326"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="331"/><end position="336"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="341"/><end position="346"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="354"/><end position="355"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="362"/><end position="367"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="373"/><end position="376"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="385"/><end position="387"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="392"/><end position="395"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="400"/><end position="404"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="409"/><end position="414"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="419"/><end position="423"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="433"/><end position="437"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="442"/><end position="447"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="452"/><end position="455"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="493"/><end position="494"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="516"/><end position="521"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="526"/><end position="534"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="536"/><end position="548"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="554"/><end position="563"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="568"/><end position="578"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="582"/><end position="591"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="596"/><end position="606"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="612"/><end position="618"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="654"/><end position="669"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="678"/><end position="702"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="714"/><end position="722"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="724"/><end position="734"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="738"/><end position="750"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="753"/><end position="762"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="770"/><end position="779"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="801"/><end position="811"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="819"/><end position="821"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="839"/><end position="856"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="859"/><end position="872"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="877"/><end position="893"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="903"/><end position="907"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="912"/><end position="920"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="925"/><end position="940"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="950"/><end position="963"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="966"/><end position="975"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="988"/><end position="1001"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1007"/><end position="1017"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1032"/><end position="1052"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1059"/><end position="1065"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1069"/><end position="1083"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1092"/><end position="1111"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1115"/><end position="1128"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1134"/><end position="1144"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1167"/><end position="1184"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1192"/><end position="1203"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1210"/><end position="1225"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="1233"/><end position="1237"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1242"/><end position="1251"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1259"/><end position="1271"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1277"/><end position="1293"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1297"/><end position="1309"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1314"/><end position="1322"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1331"/><end position="1343"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1348"/><end position="1376"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1404"/><end position="1409"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1415"/><end position="1442"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1476"/><end position="1480"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1500"/><end position="1515"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1525"/><end position="1536"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1541"/><end position="1550"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1555"/><end position="1563"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1568"/><end position="1586"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1602"/><end position="1615"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1622"/><end position="1640"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1642"/><end position="1651"/></location></feature>
+<feature type="strand" soTermId="SO:0001111"><location><begin position="1657"/><end position="1660"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1665"/><end position="1677"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1680"/><end position="1692"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1697"/><end position="1710"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1716"/><end position="1732"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1736"/><end position="1747"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1756"/><end position="1769"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1782"/><end position="1795"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1800"/><end position="1804"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1811"/><end position="1817"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1822"/><end position="1833"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1843"/><end position="1857"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1871"/><end position="1886"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1890"/><end position="1900"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1911"/><end position="1933"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1950"/><end position="1977"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1981"/><end position="1992"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="1998"/><end position="2010"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2015"/><end position="2025"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2034"/><end position="2049"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2061"/><end position="2076"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2085"/><end position="2096"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2105"/><end position="2116"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2125"/><end position="2138"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2147"/><end position="2150"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2153"/><end position="2166"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2170"/><end position="2182"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2196"/><end position="2207"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2210"/><end position="2228"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2236"/><end position="2249"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2252"/><end position="2261"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2264"/><end position="2279"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2288"/><end position="2296"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2300"/><end position="2302"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2309"/><end position="2318"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2327"/><end position="2336"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2340"/><end position="2351"/></location></feature>
+<feature type="helix" soTermId="SO:0001114"><location><begin position="2357"/><end position="2370"/></location></feature>
+<secondaryStructures>
+  <location><begin position="1"/><end position="2371"/></location>
+  <featureString>
+LLLLLLLLLLLLLLLLLHHHHHHHHHHHHLLLLLLLLLLLEELLLLLLLEEEEELLLLEEEEEELLLLLLLLLLLLLLLLEELLLLLLEEEEEELLLLLE
+EEEELLLLEEEEEELLLLLLLLLLLLLLLLLLLLEEEEEELLLLLEEEELLLLLEEEEEELLLLLLLEELLLLLLEEEEEELLLLEEEELLLLLLLLLLL
+EEELLLLLEEEEEELLLLLLLLLLLLLLLLLLLLLLLLEEEEEELLLLLEEEEELLLLEEEEEELLLLLLEEEEEELLLLLEEEEEEELLLLLLLLLLEE
+EEEELLLLLEEEELLLLLLEEEEEEELLLLEEEEEELLLLEEEEEELLLLLLLEELLLLLLEEEEEELLLLLEEEELLLLLLLLEEELLLLEEEELLLLE
+EEEELLLLEEEEEELLLLHHHHHLLLLLLLLLEEEEELLLLEEEEEELLLLEEEELLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLEELLLLLL
+LLLLLLLLLLLLLLLEEEEEELLLLHHHHHHHHHLHHHHHHHHHHHHHLLLLLHHHHHHHHHHLLLLHHHHHHHHHHHLLLHHHHHHHHHHLLLLHHHHH
+HHHHHHLLLLLHHHHHHHLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLHHHHHHHHHHHHHHHHLLLLLLLLHHHHHHHHHHHHHHHHHHHHHHH
+HHLLLLLLLLLLLHHHHHHHHHLHHHHHHHHHHHLLLHHHHHHHHHHHHHLLHHHHHHHHHHLLLLLLLHHHHHHHHHHLLLLLLLLLLLLLLLLLLLLL
+HHHHHHHHHHHLLLLLLLHHHLLLLLLLLLLLLLLLLLHHHHHHHHHHHHHHHHHHLLHHHHHHHHHHHHHHLLLLHHHHHHHHHHHHHHHHHLLLLLLL
+LLHHHHHLLLLHHHHHHHHHLLLLHHHHHHHHHHHHHHHHLLLLLLLLLHHHHHHHHHHHHHHLLHHHHHHHHHHLLLLLLLLLLLLHHHHHHHHHHHHH
+HLLLLLHHHHHHHHHHHLLLLLLLLLLLLLLHHHHHHHHHHHHHHHHHHHHHLLLLLLHHHHHHHLLLHHHHHHHHHHHHHHHLLLLLLLLHHHHHHHHH
+HHHHHHHHHHHLLLHHHHHHHHHHHHHHLLLLLHHHHHHHHHHHLLLLLLLLLLLLLLLLLLLLLLHHHHHHHHHHHHHHHHHHLLLLLLLHHHHHHHHH
+HHHLLLLLLHHHHHHHHHHHHHHHHLLLLLLLEEEEELLLLHHHHHHHHHHLLLLLLLHHHHHHHHHHHHHLLLLLHHHHHHHHHHHHHHHHHLLLHHHH
+HHHHHHHHHLLLLHHHHHHHHHLLLLLLLLHHHHHHHHHHHHHLLLLHHHHHHHHHHHHHHHHHHHHHHHHHHHHHLLLLLLLLLLLLLLLLLLLLLLLL
+LLLHHHHHHLLLLLHHHHHHHHHHHHHHHHHHHHHHHHHHHHLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLHHHHHLLLLLLLLLLLLLLLLLLLH
+HHHHHHHHHHHHHHHLLLLLLLLLHHHHHHHHHHHHLLLLHHHHHHHHHHLLLLHHHHHHHHHLLLLHHHHHHHHHHHHHHHHHHHLLLLLLLLLLLLLL
+LHHHHHHHHHHHHHHLLLLLLHHHHHHHHHHHHHHHHHHHLHHHHHHHHHHLLLLLEEEELLLLHHHHHHHHHHHHHLLHHHHHHHHHHHHHLLLLHHHH
+HHHHHHHHHHLLLLLHHHHHHHHHHHHHHHHHLLLHHHHHHHHHHHHLLLLLLLLHHHHHHHHHHHHHHLLLLLLLLLLLLHHHHHHHHHHHHHHLLLLH
+HHHHLLLLLLHHHHHHHLLLLHHHHHHHHHHHHLLLLLLLLLHHHHHHHHHHHHHHHLLLLLLLLLLLLLHHHHHHHHHHHHHHHHLLLHHHHHHHHHHH
+LLLLLLLLLLHHHHHHHHHHHHHHHHHHHHHHHLLLLLLLLLLLLLLLLHHHHHHHHHHHHHHHHHHHHHHHHHHHHLLLHHHHHHHHHHHHLLLLLHHH
+HHHHHHHHHHLLLLHHHHHHHHHHHLLLLLLLLHHHHHHHHHHHHHHHHLLLLLLLLLLLHHHHHHHHHHHHHHHHLLLLLLLLHHHHHHHHHHHHLLLL
+LLLLHHHHHHHHHHHHLLLLLLLLHHHHHHHHHHHHHHLLLLLLLLHHHHLLHHHHHHHHHHHHHHLLLHHHHHHHHHHHHHLLLLLLLLLLLLLHHHHH
+HHHHHHHLLHHHHHHHHHHHHHHHHHHHLLLLLLLHHHHHHHHHHHHHHLLHHHHHHHHHHLLHHHHHHHHHHHHHHHHLLLLLLLLHHHHHHHHHLLLH
+HHLLLLLLHHHHHHHHHHLLLLLLLLHHHHHHHHHHLLLHHHHHHHHHHHHLLLLLHHHHHHHHHHHHHHL
+  </featureString>
+  <reliability>
+9774334435654443024566777542012344443200000256641255302343145541112333332335432011013652045776156423
+5541244135654113543210001123455540467765167404543045542666522444100101333303456541463033114532210000
+0111445426666402454322223432211123334146777616730566413454145552146630011220145420456530455443454404
+5553134530001023333046776526740565422354156763134410011035553135564256303321133330001110110011113430
+2441235415665303320111012223454014664156405655213311000000122234434544443444333322332110000000012100
+0145444422111211245311347157776542102478888888760677004455554312454677888764211212467888853046637889
+8887300001145565301333222322344333111210113542000110012332324567764211112451157888888988865544556887
+6226542224457578776321026888988752036258888876410000156787875234567822455543330135554444563322223211
+0113222322101112100100124543234455655525778888877765333102035688878764203640367778756566542102344433
+1346753045146887765204521345666663302320122345431257888888876310124678887521564321014444788888887663
+1234212567788875313222465443443035678888878888888864056431567764115638889889998886402468777256788888
+8888776664103725677888898762154003567787753113345442111113565444560478888889888874201345621236788887
+6414576303568889988887754265324302342156067888887405200101457898999876516772356778888899887510344688
+8889887520453257888762134443333678888988874067024788888766545665666543322110012335555555455544456665
+3310121000000011221001235666653100111222000012345555555444565533110000122101232025533333221120012341
+3577887765543210022456660578888877412453135677775201201144665430321223556677765655554201101223421244
+8478888888865210135550367778888877787542003677776412453100002451245777888764001036788888886427653678
+8899987531246550346665532345665303726788877653200125444567778898886401110012345633678888775443203230
+2320147775134322103000578988886401013565560367788898876411211013466653456656677778775226203677775420
+1520000255235678889889888987653201343000122323321058888888887887764213455532012200233443332013342457
+8888887652366546888888640354456621356777888887752011002565543788888898765310122222252578888875312457
+7732022367787752145532211333335566666105422324122013234678888886303652678889888862355443233243336788
+8888631220112455567888887430233356624688888887630000246777641340457777777654310123345637888887632321
+00002310147888887401366523588999987514304667788764134411001357888787517
+  </reliability>
+</secondaryStructures>
+  </featureProviderGroup>
+</featureTypeGroup>
+<featureTypeGroup type="solvent accessibility">
+  <featureProviderGroup provider="PROFacc" ref="3">
+<solventAccessibility>
+  <location><begin position="1"/><end position="2371"/></location>
+  <featureString>
+9976884673588768775650035046567369545305536344704000000567504005353555536353583005005630000000005050
+0000055400000058835630662530883745040000006050000005050030000006500005036300000000000400000453502003
+0000043550400004006555334030043095372300000000504000000555003000055860040060585550000000056000005500
+3000036060004050365300000000604000000555003000065374055065655000000056050005758858655303603400005650
+0000456500300006506700760473353000000058050000507575055556366554655546555556463535053374055314435506
+6365988635505552300005755076005660668605600500003726553005540574845075047007606755000040095048537006
+5007301762607006505854868534358747487363973686998559687776476466007006368385746500500050060054000045
+0293655988635570077057050000000005755070040005400660460000000000733506600500050047986555473565946596
+0075050550075775763630555548347473884637500600550065057005005000500530075726500500640000400005474835
+0007506817737504000652678600550060000004548858883056005500053075627000600653988356823665750040000000
+0066565055005007505876388848306704600600550050060067482750053006368667504600050055068889956674056005
+4005005500751657400500040000006275040000005038369836353548958537265860050000003500530355557007405500
+7305973760650260050054007301700000040355006005500863490065055005005006407686775544000000000065450700
+0000050087756600400060085870650550050000000000784054000005605660056506564567758848547355953575745456
+8656730755646037006604600550060006060066007505836858358548558668873684602500550075332563635344044250
+5000400000050064678883354040005007752653000000000000502504600773666600000000000000004037406863463353
+6076006300630665889835850560060065047403606505007606871600505556725540000006007750050004006638265000
+0000000000558365760574066050075068607500630063000005946464000000005627487367483605000600660560076260
+6600769365270056306770050006007606978553000000040000500055676338738965770050050006007504675005005000
+0057006705470056005500600650076069667886568399584500500630560060064000000000666877406600500530676776
+0452000000501000000500620037373507700550054000005753782758864360054000000653785870350650362056006859
+2624000000000060273799646000000050005302595716576066575000000500753656740400000053058375735446300040
+0000005266755870065006005405768731557006500000050000000040005265850452007506734747888355500000063610
+04000000003000000534888736065006306737560400000000450260040005006007739
+  </featureString>
+  <reliability>
+4210100011111103220121302310103111000001101000201135311102131411000000010100100011001000135876401121
+6743100132332011201100111100101102324664300211664202012838422000210141000005246443002014611000101001
+3322110117363230000111000000010010112261777430122266531201231632010110011010110010425530010010000126
+1731200010101310011262586520021146531101171742200020012000001113433110121131102202111001100011110010
+3332010104162110001211110120000002331102022344202020011011010000000001000010101100010011111001001101
+1110100100000012132132102032131221213232293219000231110311212231112032934253201221066129333001204283
+3933241411202031101200100100000111111111121000121003132121131013303001102211212241314137330322303422
+4121000100013140443411014536940561201024820841211013111532872031200201120126020001120000212000201121
+0122001211010200210100000002101111111203281337222622612111121081167215021221120233215025103311111211
+0024351314312183065111122123217011733361112200010122182208020330133191266212203200200121122625984782
+2100012112603644310210102201002311333309223227522923332311121601011215253309026722012211212152623553
+4823532262121404140207633630103111123811441002101010101010100021211225013932590223104001012023293275
+3031311311232125629623903212210220721002012592464420020013312812973082102011221112745489029321120219
+1219121332111252349111221120120122125951960010130621750442220121211202111101101101001100201010100100
+1011300200001102131120114114210311010210212111210002101001100001220031101211122021000100000000000110
+1164246404120121112020120024823392322110223877685230100141315331111112327764436616232201101000000111
+2042523071305112212222523243230333413340101223163101232100321100312214823742012213322953691232321116
+6633912360112221124241321023122110304270328011611020012212914771992231012012112201040325333222130320
+1120301112240720023121422943374311222000001129401492126012001002211202131123220904373200011412651041
+2002000203130233353373417233133025001210102132012220264307233030421320155121100313011231121100102253
+3221833551100110390296202001232103224235613740141110120102121131832662051120330130030129041922021202
+3111104296256020131223011134333411642002010312111111231211392373320011314239419720011221211010012327
+7204401220311322022933472021211202313143264005200213327722533122414121623261300311102131169129421012
+10332002322991093101211222123845192303220197356322111122310621834284231
+  </reliability>
+</solventAccessibility>
+  </featureProviderGroup>
+</featureTypeGroup>
+<featureTypeGroup type="sub-cellular localisation">
+  <featureProviderGroup provider="LocTree2" ref="11">
+<subcellularLocalisation>
+  <location><begin position="1"/><end position="2371"/></location>
+<localisation></localisation></subcellularLocalisation>
+  </featureProviderGroup>
+  <featureProviderGroup provider="LocTree3" ref="13">
+<subcellularLocalisation>
+  <location><begin position="1"/><end position="2371"/></location>
+<localisation></localisation></subcellularLocalisation>
+  </featureProviderGroup>
+</featureTypeGroup>
+<sequence length="2371" modified="Sun Aug 13 10:38:27 2017" version="1">
+MAAPESGPALSPGTAEGEEETILYDLLVNTEWPPETEVQPRGNQKHGASFIITKAIRDRLLFLRQYIWYSPAPFLLPDGLVRLVNKQINWHLVLASNGKL
+LAAVQDQCVEIRSAKDDFTSIIGKCQVPKDPKPQWRRVAWSYDCTLLAYAESTGTVRVFDLMGSELFVISPASSFIGDLSYAIAGLIFLEYKASAQWSAE
+LLVINYRGELRSYLVSVGTNQSYQESHCFSFSSHYPHGINTAIYHPGHRLLLVGGCETAEVGMSKASSCGLSAWRVLSGSPYYKQVTNGGDGVTAVPKTL
+GLLRMLSVKFYSRQGQEQDGIFKMSLSPDGMLLAAIHFSGKLSIWAIPSLKQQGEWGQNEQPGYDDLNPDWRLSTEKRKKIKDKESFYPLIDVNWWADSA
+VTLARCSGALTVSSVKTLKNLLGKSCEWFEPSPQVTATHDGGFLSLECEIKLAPKRSRLETRAGEEDEGEEDSDSDYEISAKARYFGYIKQGLYLVTEME
+RFAPPRKRPRTITKNYRLVSLRSTTPEELYQRKIESEEYEEALSLAHTYGLDTDLVYQRQWRKSAVNVASIQNYLSKIKKRSWVLHECLERVPENVDAAK
+ELLQYGLKGTDLEALLAIGKGADDGRFTLPGEIDIDSISYEELSPPDEEPAKNKKEKELKKRQELLKLVNFSKLTLEQKELCRCRRKLLTYLDRLATYEE
+ILGVPHASEQRYDAEFFKKFRNQNIVLSARTYAQESNVQALEILFTYHGSDLLPHRLAILSNFPETTSPHEYSVLLPEACFNGDSLMIIPWHEHKHRAKD
+WCEELACRMVVEPNLQDESEFLYAAQPELLRFRMTQLTVEKVMDWYQTRAEEIEHYARQVDCALSLIRLGMERNIPGLLVLCDNLVTLETLVYEARCDVT
+LTLKELQQMKDIEKLRLLMNSCSEDKYVTSAYQWMVPFLHRCEKQSPGVANELLKEYLVTLAKGDLKFPLKIFQHSKPDLQQKIIPDQDQLMAIALECIY
+TCERNDQLCLCYDLLECLPERGYGDKTEATTKLHDMVDQLEQILSVSELLEKHGLEKPISFVKNTQSSSEEARKLMVRLTRHTGRKQPPVSESHWRTLLQ
+DMLTMQQNVYTCLDSDACYEIFTESLLCSSRLENIHLAGQMMHCSACSENPPAGIAHKGKPHYRVSYEKSIDLVLAASREYFNSSTNLTDSCMDLARCCL
+QLITDRPPAIQEELDLIQAVGCLEEFGVKILPLQVRLCPDRISLIKECISQSPTCYKQSTKLLGLAELLRVAGENPEERRGQVLILLVEQALRFHDYKAA
+SMHCQELMATGYPKSWDVCSQLGQSEGYQDLATRQELMAFALTHCPPSSIELLLAASSSLQTEILYQRVNFQIHHEGGENISASPLTSKAVQEDEVGVPG
+SNSADLLRWTTATTMKVLSNTTTTTKAVLQAVSDGQWWKKSLTYLRPLQGQKCGGAYQIGTTANEDLEKQGCHPFYESVISNPFVAESEGTYDTYQHVPV
+ESFAEVLLRTGKLAEAKNKGEVFPTTEVLLQLASEALPNDMTLALAYLLALPQVLDANRCFEKQSPSALSLQLAAYYYSLQIYARLAPCFRDKCHPLYRA
+DPKELIKMVTRHVTRHEHEAWPEDLISLTKQLHCYNERLLDFTQAQILQGLRKGVDVQRFTADDQYKRETILGLAETLEESVYSIAISLAQRYSVSRWEV
+FMTHLEFLFTDSGLSTLEIENRAQDLHLFETLKTDPEAFHQHMVKYIYPTIGGFDHERLQYYFTLLENCGCADLGNCAIKPETHIRLLKKFKVVASGLNY
+KKLTDENMSPLEALEPVLSSQNILSISKLVPKIPEKDGQMLSPSSLYTIWLQKLFWTGDPHLIKQVPGSSPEWLHAYDVCMKYFDRLHPGDLITVVDAVT
+FSPKAVTKLSVEARKEMTRKAIKTVKHFIEKPRKRNSEDEAQEAKDSKVTYADTLNHLEKSLAHLETLSHSFILSLKNSEQETLQKYSHLYDLSRSEKEK
+LHDEAVAICLDGQPLAMIQQLLEVAVGPLDISPKDIVQSAIMKIISALSGGSADLGGPRDPLKVLEGVVAAVHASVDKGEELVSPEDLLEWLRPFCADDA
+WPVRPRIHVLQILGQSFHLTEEDSKLLVFFRTEAILKASWPQRQVDIADIENEENRYCLFMELLESSHHEAEFQHLVLLLQAWPPMKSEYVITNNPWVRL
+ATVMLTRCTMENKEGLGNEVLKMCRSLYNTKQMLPAEGVKELCLLLLNQSLLLPSLKLLLESRDEHLHEMALEQITAVTTVNDSNCDQELLSLLLDAKLL
+VKCVSTPFYPRIVDHLLASLQQGRWDAEELGRHLREAGHEAEAGSLLLAVRGTHQAFRTFSTALRAAQHWV
+</sequence>
+</entry>
+<copyright>
+Copyright László Kaján
+</copyright>
+</predictprotein>
