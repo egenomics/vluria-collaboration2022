@@ -9,6 +9,7 @@ Created on Tue Oct 11 16:26:41 2022
 import os, subprocess
 import pandas as pd
 
+main_f="/home/jlvillanueva/Documents/analysis/vluria-collaboration2022"
 #Function that returns the loop length at the cterminal, nterminal and the lengths of the middle regions of Loops as a list
 def calc_loop_lengths(secondary_structure_string, letter):
      #Remove starting and ending L's
@@ -167,17 +168,17 @@ def create_word(structure, pfam):
 
 #run xlsparser
 from subprocess import Popen, PIPE, STDOUT
-a=open("/home/jlvillanueva/Documents/analysis/vluria_2022/logs/errors_parser.txt", 'w') # log error for parser
-b=open("/home/jlvillanueva/Documents/analysis/vluria_2022/logs/errors_prots_failed.txt", 'w') # log error for prots
+a=open(main_f+"/logs/errors_parser.txt", 'w') # log error for parser
+b=open(main_f+"/logs/errors_prots_failed.txt", 'w') # log error for prots
 
-mypath="/home/jlvillanueva/Documents/analysis/vluria_2022/Hs_PP_XMLs"
+mypath=main_f+"/Hs_PP_XMLs"
 folders = [f for f in os.listdir(mypath)]
 for folder in folders:
     proteins = [f for f in os.listdir(mypath+'/'+folder+'/XMLs_'+folder)]
     for prot in proteins:
         if 'processed' not in prot: #avoid the ones already processed
             protein_file = mypath+'/'+folder+'/XMLs_'+folder+'/'+prot
-            cmd= 'xsltproc /home/jlvillanueva/Documents/analysis/vluria_2022/code/xml_pp_parser.xsl ' + protein_file +' > ' + protein_file + '_processed'
+            cmd= 'xsltproc /home/jlvillanueva/Documents/analysis/vluria-collaboration2022/code/xml_pp_parser.xsl ' + protein_file +' > ' + protein_file + '_processed'
             p = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT, close_fds=True)
             output = p.stdout.read()
             if output!='':
@@ -190,7 +191,7 @@ b.close()
 word_parts=['E','H','L']
 structure_dictionary={}
 
-mypath="/home/jlvillanueva/Documents/analysis/vluria_2022/Hs_PP_XMLs"
+mypath=main_f+"/Hs_PP_XMLs"
 folders = [f for f in os.listdir(mypath)]
 for folder in folders:
     proteins = [f for f in os.listdir(mypath+'/'+folder+'/XMLs_'+folder)]
@@ -216,7 +217,7 @@ for folder in folders:
 
 #Another dictionary for basic statistics about domains across age groups-
 summary_domains={}
-f0=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/summary_domains.txt", 'w')
+f0=open(main_f+"/results/summary_domains.txt", 'w')
 print>>f0,'protein\tage\tnum_domains\ttotal_domain_length\tprotein_length'
 for prot in structure_dictionary:
     summary_domains[prot]={}
@@ -233,7 +234,7 @@ for prot in structure_dictionary:
 
 from os import listdir
 from os.path import isfile, join
-mypath="/home/jlvillanueva/Documents/analysis/vluria_2022/Hs_PfamA_raw"
+mypath=main_f+"/Hs_PfamA_raw"
 onlyfiles = [f for f in listdir(mypath)]
 dfs=[]
 
@@ -242,12 +243,12 @@ for file_ in onlyfiles:
         df=load_domtable(mypath+'/'+file_+'/LP_'+file_+'/PfamA-'+file_+'.raw')
         dfs.append(df)
     except:
-        print file_
+        print file_ #Hs_rand raw file appears to be empty
 
 a=pd.concat(dfs) #Put together the different pandas dataframes into a single one
 i=0
-f1=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/pfam_structure_dataset.txt", 'w')
-f3=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/internal_loop_lengths.txt", 'w')
+f1=open(main_f+"/results/pfam_structure_dataset.txt", 'w')
+f3=open(main_f+"/results/internal_loop_lengths.txt", 'w')
 
 #print headers
 print>>f1,'protein\tpfam_domain\tpfam_length\tage_group\tstart\tend\tstructure\tnum_L\tnum_middle_L\tnum_H\tnum_E\tdomain_description\tword'
@@ -289,12 +290,12 @@ for index, row in a.iterrows(): #Iterate the single pandas dictionary and genera
 f1.close()
 
 
-f4=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/inter_domains_loop_lengths.txt", 'w')
+f4=open(main_f+"/results/inter_domains_loop_lengths.txt", 'w')
 print>>f4,'protein\tloop_length'
-f7=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/words_proteins.txt", 'w')
+f7=open(main_f+"/results/words_proteins.txt", 'w')
 print>>f7,'protein\tword\tword_num\tage\tnum_domains\tprotein_length'
 
-#Extract the length of internal "loops" in all proteins and also in all seconday structures that overlap a pfam domain.
+#Extract the length of internal "loops" in all proteins and also in all secondary structures that overlap a pfam domain.
 words_dict={}
 for prot in summary_domains:
     print>>f0, prot+'\t'+summary_domains[prot]['age']+'\t'+format(summary_domains[prot]['num_domains'])+'\t'+format(summary_domains[prot]['total_domain_length'])+'\t'+format(summary_domains[prot]['protein_length'])
@@ -329,8 +330,8 @@ f0.close()
 f4.close()
 f3.close()
 
-f5=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/intra_domain_stretch_lengths.txt", 'w')
-f6=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/intra_domain_stretch_composition.txt", 'w')
+f5=open(main_f+"/results/intra_domain_stretch_lengths.txt", 'w')
+f6=open(main_f+"/results/intra_domain_stretch_composition.txt", 'w')
 
 print>>f5,'protein\tstretch_length\tletter\tgroup\tpfam_id'
 print>>f6,'protein\tnumber_letter\tpfam_domain\tdomain_length\tgroup\tletter'
@@ -349,14 +350,12 @@ for index, row in a.iterrows(): #Iterate the single pandas dictionary and genera
                     for item in b:
                         print>>f5,row['target']+'\t'+format(item)+'\t'+letter+'\t'+group+'\t'+row['q_accession']
                     print>>f6, row['target']+'\t'+format(struc.count(letter))+'\t'+row['q_accession']+'\t'+format(len(struc))+'\t'+group+'\t'+letter
-
-
 f5.close()
 f6.close()
 
-f6b=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/all_proteins_stretch_composition.txt", 'w')
+f6b=open(main_f+"/results/all_proteins_stretch_composition.txt", 'w')
 print>>f6b,'protein\tnumber_letter\tstretch_num\tlength\tgroup\tletter'
-f6c=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/all_proteins_composition.txt", 'w')
+f6c=open(main_f+"/results/all_proteins_composition.txt", 'w')
 print>>f6c,'protein\tnumber_letter\tlength\tgroup\tletter'
 
 for prot in structure_dictionary:
@@ -372,7 +371,7 @@ for prot in structure_dictionary:
 
 f6b.close()
 
-f8=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/word_count.txt", 'w')
+f8=open(main_f+"/results/word_count.txt", 'w')
 for age in words_dict:
     for word in words_dict[age]:
         print>>f8, word+'\t'+format(words_dict[age][word])+'\t'+age
@@ -382,7 +381,7 @@ f8.close()
 
 #Top 20 more frequent words for each group. The empty ones are loop only ''=L. We extract composition.
 ###
-f9=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/top20_word_count.txt", 'w')
+f9=open(main_f+"/results/top20_word_count.txt", 'w')
 print>>f9,'word age value L E H word_length'
 
 for age in words_dict:
@@ -393,7 +392,7 @@ for age in words_dict:
 
 f9.close()
 
-f9=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/top20_word_count.txt", 'w')
+f9=open(main_f+"/results/top20_word_count.txt", 'w')
 print>>f9,'word age value L E H word_length'
 
 for age in words_dict:
@@ -453,7 +452,7 @@ for age in words_dict:
             elif word in word_dict_short[age]:
                 word_dict_short[age][word]+=words_dict[age][dict_word]
 
-f9=open("/home/jlvillanueva/Documents/analysis/vluria_2022/results/word_count_length_1_to_3.txt", 'w')
+f9=open(main_f+"/results/word_count_length_1_to_3.txt", 'w')
 print>>f9, 'word\tcount\tage'
 for age in word_dict_short:
     for (word, value) in sorted(word_dict_short[age].items(), key=lambda x:x[1])[-20:]:
