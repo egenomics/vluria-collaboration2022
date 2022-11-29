@@ -1,5 +1,7 @@
 library(readr)
 library(ggplot2)
+
+# substitute all instances of /home/jlvillanueva/Documents/analysis/vluria-collaboration2022/ by the relevant folder.
 internal_loop_lengths <- read_delim("/home/jlvillanueva/Documents/analysis/vluria-collaboration2022/results/internal_loop_lengths.txt","\t", escape_double = FALSE, trim_ws = TRUE)
 
 ggplot(internal_loop_lengths, aes(loop_length, fill = group, colour = group)) +
@@ -8,7 +10,7 @@ ggplot(internal_loop_lengths, aes(loop_length, fill = group, colour = group)) +
   xlab('Loop length') +
   ylab('Density')
 
-ggsave("/home/jlvillanueva/Documents/analysis/vluria-collaboration2022/results/fig3_internal_loop_lengths.png", width = 9, height = 9, units = "cm")
+ggsave("/home/jlvillanueva/Documents/analysis/vluria-collaboration2022/results/fig3_internal_loop_lengths.png", width = 16, height = 9, units = "cm")
 
 
 nrow(subset(internal_loop_lengths, group=='pfam'))
@@ -48,7 +50,7 @@ mydata<-summary_domains %>%
   group_by(age) %>% 
   dplyr::summarize(n=n(), mean=mean(num_domains), prot_length=mean(protein_length), have_domain=sum(num_domains>=1))
 
-write.table(mydata, "/home/jlvillanueva/Documents/analysis/vluria-collaboration2022/results/summary_domains_table.txt", sep="\t")
+write.table(mydata, "/home/jlvillanueva/Documents/analysis/vluria-collaboration2022/results/table1_summary_domains_table.txt", sep="\t")
 
 '''#Num_domains boxplot per age group
 p <- ggplot(summary_domains, aes(age, num_domains))
@@ -68,7 +70,7 @@ p <- ggplot(data = summary_domains, aes(x = num_domains, y = protein_length)) +
   theme(legend.position="none")
 p
 
-ggsave("/home/jlvillanueva/Documents/analysis/vluria-collaboration2022/results/correlation_domains_protlength.png", width = 9, height = 9, units = "cm")
+ggsave("/home/jlvillanueva/Documents/analysis/vluria-collaboration2022/results/fig1_correlation_domains_protlength.png", width = 9, height = 9, units = "cm")
 
 
 ########################
@@ -86,7 +88,7 @@ ggplot(intra_domain_stretch_lengths, aes(stretch_length, fill = letter, colour =
   xlab('Stretch length') + 
   ylab('Density')
 
-ggsave("/home/jlvillanueva/Documents/analysis/vluria-collaboration2022/results/fig4_length_secondary_structures.png", width = 9, height = 9, units = "cm")
+ggsave("/home/jlvillanueva/Documents/analysis/vluria-collaboration2022/results/fig4_length_secondary_structures.png", width = 16, height = 9, units = "cm")
 
 
 ############
@@ -209,6 +211,11 @@ ggplot(word_count_short,aes(x = age, y=percent, color=age)) +
   xlab('Age group')+
   ylab('Percentage')
 
-ggsave("/home/jlvillanueva/Documents/analysis/vluria-collaboration2022/results/fig5_word_combinations_by_age.png", width = 9, height = 6, units = "in")
+ggsave("/home/jlvillanueva/Documents/analysis/vluria-collaboration2022/results/fig6_word_combinations_by_age.png", width = 9, height = 6, units = "in")
 
+word_count_short %>% 
+  group_by(age) %>% 
+  mutate(acc_percent = sum(percent))
+
+aggregate(word_count_short$percent, list(word_count_short$age), FUN=sum)
 
